@@ -1,0 +1,220 @@
+/* このファイルにCSSを書いていくよ */
+/*  コメント(メモ)をこんな感じで書くことができるよ */
+
+/* この下にbodyのスタイルを定義してみよう */
+/* bodyの背景を好きな色に変えてみよう */
+body {
+  background: blanchedalmond;
+
+}
+img{
+  width: 300px;
+  height: 140px;
+}
+
+.header {
+  height: 65px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0B3861;
+  background-color: rgba(0,176,227,0.5);
+}
+
+
+
+.js-hajimari-btn{
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+  border: 1px solid #232323;
+}
+
+.logo > img{
+  width: 100px;
+  height: 46px;
+}
+
+.logo{
+  float: left;
+}
+
+.header-menu{
+  float: right;
+}
+
+.header-menu-list {
+  list-style: none;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+/* この下にtop-head部分のスタイルを定義してみよう */
+.top-head {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+/* この下にtop-images部分のスタイルを定義してみよう */
+/*　少要素のときリダイレクト的なイメージ*/
+.top-images > img {
+  width: 220px;
+  height: 140px;
+
+}
+.top-images{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------- */
+/* ------ ここから授業では使わない部分 -----*/
+/* ----------------------------------- */
+/* この下にTop部分のスタイルを定義してみよう */
+.top {
+  width: 800px;
+  margin: auto;
+}
+
+/* この下にメニューやアクセスなどの共通するセクションのスタイルを定義してみよう */
+.section {
+  width: 800px;
+  margin: auto;
+}
+
+/* この下にメニューのスタイルを定義してみよう */
+.menu-first-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-second-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.item>img {
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  height: 120px;
+}
+
+.access-wrapper {
+  text-align: center;
+}
+
+/* この下にアクセス部分の左側のスタイルを定義してみよう */
+.left-side {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* この下にアクセス部分の右側のスタイルを定義してみよう */
+.right-side {
+  display: inline-block;
+  padding: 100px;
+  border: 5px dotted black;
+  text-align: left;
+}
+
+/* この下に予約部分の左側のスタイルを定義してみよう */
+/* paddingを使って下部分(bottom)に余白を作ってみよう */
+.book {
+  padding-bottom: 300px;
+}
+
+/* この下に予約フォームのスタイルを定義してみよう */
+.book-form {
+  padding-top: 50px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.book-form-item {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.book-form>button {
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin: 50px auto;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;
+  /*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  /*下に動く*/
+  border-bottom: none;
+  /*線を消す*/
+}
+
+.book-form-item>label {
+  display: block;
+  font-size: large;
+  font-weight: bold;
+}
+
+.book-form-item>input, textarea {
+  padding: 30;
+  display: block;
+  width: 300px;
+  height: 30px;
+}
+
+.top-head > button {
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #00505A;
+  /*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  /*下に動く*/
+  border-bottom: none;
+  /*線を消す*/
+}
+
+button {
+  display: block;
+}
+
